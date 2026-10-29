@@ -16,48 +16,37 @@
 
 **Family Budget Manager** to aplikacja webowa pomagająca rodzinom w prowadzeniu budżetu domowego. Pozwala w jednym miejscu monitorować wydatki, planować budżet i śledzić oszczędności.
 
-Projekt powstał w ramach zaliczenia przedmiotu **[nazwa przedmiotu]** na **[uczelnia / kierunek]**. Zrealizowałem go samodzielnie, aby pokazać umiejętność tworzenia kompletnych aplikacji webowych w Javie.
+Projekt powstał jako praca zaliczeniowa. Zrealizowałem go samodzielnie, aby pokazać umiejętność tworzenia kompletnych aplikacji webowych w Javie.
 
 ## ✨ Funkcje
 
-- 📊 **Monitorowanie wydatków** – [np. dodawanie, edycja i usuwanie transakcji, kategorie]
-- 🗓️ **Planowanie budżetu** – [np. limity miesięczne na kategorie]
-- 🏦 **Śledzenie oszczędności** – [np. cele oszczędnościowe, postęp]
-- [Dodaj kolejne: logowanie użytkowników, raporty, wykresy, eksport danych...]
+- 📊 **Monitorowanie wydatków** – bieżąca kontrola domowych wydatków
+- 🗓️ **Planowanie budżetu** – układanie budżetu rodziny z wyprzedzeniem
+- 🏦 **Śledzenie oszczędności** – podgląd odkładanych środków
 
 ## 🛠️ Technologie
 
 | Warstwa | Technologia |
 |---|---|
 | Język | Java |
-| Platforma | Java EE (Jakarta EE) |
+| Platforma | Java EE |
 | Serwer aplikacji | WildFly |
-| Interfejs użytkownika | JSF + PrimeFaces |
-| Baza danych | [np. MySQL / H2 / PostgreSQL] |
-| Budowanie | [np. Maven / Gradle] |
+| Interfejs użytkownika | PrimeFaces (JSF) |
 
+Interfejs oparto na bibliotece **PrimeFaces**, która dostarcza gotowe, intuicyjne komponenty UI. Całość działa na serwerze aplikacji **WildFly**.
 
-Aplikacja będzie dostępna pod adresem: `http://localhost:8080/[nazwa-aplikacji]`
+## 🚀 Uruchomienie
 
-## 🗂️ Struktura projektu
-
-```
-[uzupełnij, np.]
-src/
-├── main/
-│   ├── java/        # logika aplikacji (beany, serwisy, encje)
-│   ├── resources/   # konfiguracja
-│   └── webapp/      # widoki XHTML (PrimeFaces)
-```
+Do uruchomienia potrzebne są: JDK oraz serwer aplikacji WildFly. Po zbudowaniu projektu aplikację należy wdrożyć na serwerze WildFly i otworzyć w przeglądarce.
 
 ## 🎯 Czego się nauczyłem
 
-- Budowanie aplikacji webowych w Java EE i JSF
+- Budowanie aplikacji webowych w Java EE
 - Praca z serwerem aplikacji WildFly
-- Tworzenie interfejsu w PrimeFaces
-- [np. praca z bazą danych, obsługa sesji, walidacja formularzy]
+- Tworzenie interfejsu użytkownika w PrimeFaces
 
 ## 👤 Autor
 
 **Valentyn Yaremenko**
+
 [GitHub](https://github.com/Yareme) · [LinkedIn](https://linkedin.com/in/valentyn-yaremenko)
